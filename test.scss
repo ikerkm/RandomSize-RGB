@@ -1,0 +1,23 @@
+@for $var from 1 through 5 {
+    .col-#{$var} {
+        height: 100px;
+        width: 30px * $var;
+
+        @if $var % 2==0 {
+            background-color: black;
+        }
+
+        @else {
+            background-color: green;
+        }
+
+        margin-top: 30px;
+
+
+
+    }
+
+
+
+
+}
